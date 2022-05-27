@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.SDET34L1.GenericLibrary.ListenerImplementation"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.vtiger.documents.Test.CreateDocumentTest">
+        <methods>
+          <include name="createDocumentTest"/>
+          <include name="beforeMethodTest"/>
+          <include name="beforeClassTest"/>
+          <include name="afterClassTest"/>
+          <include name="beforeSuiteTest"/>
+          <include name="afterSuiteTest"/>
+          <include name="afterMethodTest"/>
+        </methods>
+      </class> <!-- com.vtiger.documents.Test.CreateDocumentTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
