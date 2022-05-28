@@ -12,7 +12,6 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 /**
  * This class contains only excel specific common methods
  * @author 7Hills
- *
  */
 public class MSExcelUse {
 	static Workbook wbook;
@@ -40,7 +39,7 @@ public class MSExcelUse {
 	/**
 	 * This method is used to fetch multiple data from excel
 	 * @param sheetName
-	 * @return
+	 * @return-
 	 */
 	public static Object[][] getMultipleDataFromExcel(String sheetName)
 	{
