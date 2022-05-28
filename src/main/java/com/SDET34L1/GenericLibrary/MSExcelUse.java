@@ -12,7 +12,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 /**
  * This class contains only excel specific common methods
  * @author 7Hills
- *
+ * Excel
  */
 public class MSExcelUse {
 	static Workbook wbook;
