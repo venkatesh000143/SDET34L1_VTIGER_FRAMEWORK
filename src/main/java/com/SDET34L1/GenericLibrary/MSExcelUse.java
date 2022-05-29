@@ -12,7 +12,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 /**
  * This class contains only excel specific common methods
  * @author 7Hills
- *
+ * Excel
  */
 public class MSExcelUse {
 	static Workbook wbook;
@@ -20,7 +20,7 @@ public class MSExcelUse {
 	 * This method is used to open the excel file
 	 * @param filepath
 	 * @throws EncryptedDocumentException
-	 * @throws IOException
+	 * @throws IOException 
 	 */
 	public static void openExcelFile(String filepath) throws EncryptedDocumentException, IOException {
 		FileInputStream fis= new FileInputStream(filepath);

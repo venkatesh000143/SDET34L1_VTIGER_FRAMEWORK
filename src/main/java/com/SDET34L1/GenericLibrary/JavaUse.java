@@ -10,7 +10,7 @@ import org.testng.Reporter;
 /**
  * This class contains only java specific reusable methods
  * @author 7Hills
- *
+ * Java Use
  */
 public class JavaUse {
 	/**
