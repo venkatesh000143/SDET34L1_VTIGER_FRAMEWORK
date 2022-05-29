@@ -43,7 +43,7 @@ public class BaseClass {
 	/**
 	 * This method is used open properties file and excel file
 	 * @throws IOException
-	 * hi!!!!!!!!
+	 * 
 	 */
 	@BeforeSuite(groups="baseclass")
 	public void beforeSuiteTest() throws IOException
