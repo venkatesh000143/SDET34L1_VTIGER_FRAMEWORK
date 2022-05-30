@@ -20,7 +20,7 @@ public class MSExcelUse {
 	 * This method is used to open the excel file
 	 * @param filepath
 	 * @throws EncryptedDocumentException
-	 * @throws IOException
+	 * @throws IOException 
 	 */
 	public static void openExcelFile(String filepath) throws EncryptedDocumentException, IOException {
 		FileInputStream fis= new FileInputStream(filepath);
