@@ -25,9 +25,8 @@ import com.vtiger.objectRepository.LoginPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 /**
- * 	This class used to get the common methods
+ * 	This is a super most class used to get the common methods
  * @author 7Hills
- * baseclass
  */
 public class BaseClass {
 	public WebDriver driver;
@@ -43,6 +42,7 @@ public class BaseClass {
 	/**
 	 * This method is used open properties file and excel file
 	 * @throws IOException
+	 * hello!!!!
 	 */
 	@BeforeSuite(groups="baseclass")
 	public void beforeSuiteTest() throws IOException
