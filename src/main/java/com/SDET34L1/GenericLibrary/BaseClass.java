@@ -27,7 +27,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 /**
  * 	This is a super most class used to get the common methods
  * @author 7Hills
- * 
  */
 public class BaseClass {
 	public WebDriver driver;
