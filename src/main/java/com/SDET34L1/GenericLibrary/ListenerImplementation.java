@@ -11,7 +11,11 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-
+/**
+ * it is a listenerImplementation class
+ * @author 7Hills
+ *
+ */
 public class ListenerImplementation implements ITestListener {
 	ExtentReports report;
 	ExtentTest test;
@@ -59,8 +63,6 @@ public class ListenerImplementation implements ITestListener {
 			
 			e.printStackTrace();
 		}
-
-
 	}
 
 	@Override
