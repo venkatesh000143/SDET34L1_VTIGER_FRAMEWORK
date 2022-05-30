@@ -17,6 +17,7 @@ public class JavaUse {
 	 * This method is used to convert String value to long datatype
 	 * @param value
 	 * @return
+	 * java use
 	 */
 public long stringtoLong(String value){
 	return Long.parseLong(value);
